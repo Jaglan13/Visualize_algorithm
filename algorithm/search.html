@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search a Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search a Number</h1>
+        <select id="search-method">
+            <option value="linear">Linear Search</option>
+            <option value="binary">Binary Search</option>
+            <option value="sentinelLinear">Sentinel Linear Search</option>
+            <option value="metaBinary">Meta Binary Search</option>
+            <option value="ternary">Ternary Search</option>
+            <option value="jump">Jump Search</option>
+            <option value="interpolation">Interpolation Search</option>
+            <option value="exponential">Exponential Search</option>
+            <option value="fibonacci">Fibonacci Search</option>
+            <option value="ubiquitousBinary">The Ubiquitous Binary Search</option>
+        </select>
+        <button onclick="visualizeSearch()">Visualize</button>
+        <div id="search-visualization" class="visualization"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
